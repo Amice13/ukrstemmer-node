@@ -1,0 +1,24 @@
+{
+  "name": "ukrstemmer-node",
+  "version": "1.0.0",
+  "description": "Stemmer for Ukrainian language (Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amice13/ukrstemmer-node.git"
+  },
+  "keywords": [
+    "NLP",
+    "Stemming",
+    "Porter"
+  ],
+  "author": "Zakharov Kyrylo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amice13/ukrstemmer-node/issues"
+  },
+  "homepage": "https://github.com/Amice13/ukrstemmer-node#readme"
+}
