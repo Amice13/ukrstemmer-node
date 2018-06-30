@@ -10,18 +10,18 @@ npm install Amice13/ukrstemmer-node --save
 ```
 
 ```js
-var stemmer = require('ukrstemmer-node');
+var stemmer = require('ukrstemmer-node')
 
-console.log(stemmer('випробування')); // 'випробуван'
-console.log(stemmer('Чепинога')); // 'чепиног'
+console.log(stemmer('випробування')) // 'випробуван'
+console.log(stemmer('Чепинога')) // 'чепиног'
 
-console.log(stemmer('Чепинога', strict = true)); // 'чепино'
-console.log(stemmer('Чепинозі', strict = true)); // 'чепино'
+console.log(stemmer('Чепинога', strict = true)) // 'чепино'
+console.log(stemmer('Чепинозі', strict = true)) // 'чепино'
 
 // Caution!
 
-console.log(stemmer('нога', strict = true)); // 'но'
-console.log(stemmer('нозі', strict = true)); // 'но'
-console.log(stemmer('ніжка', strict = true)); // 'ніжк'
+console.log(stemmer('нога', strict = true)) // 'но'
+console.log(stemmer('нозі', strict = true)) // 'но'
+console.log(stemmer('ніжка', strict = true)) // 'ніж'
 
 ```
